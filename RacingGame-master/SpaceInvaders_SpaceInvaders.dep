@@ -1,0 +1,22 @@
+Dependencies for Project 'SpaceInvaders', Target 'SpaceInvaders': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\startup.s)(0x5D03D9B0)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 536"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\Nokia5110.c)(0x5D03D9B0)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\nokia5110.o --omf_browse .\nokia5110.crf --depend .\nokia5110.d)
+I (Nokia5110.h)(0x5D03D9B0)
+F (.\random.s)(0x5D03D9B0)(--cpu Cortex-M4 --pd "__RTX SETA 1" --pd "__EVAL SETA 1" -g --apcs=interwork -IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary--pd "__UVISION_VERSION SETA 536"--list .\random.lst --xref -o .\random.o --depend .\random.d)
+F (.\SpaceInvaders.c)(0x6287DC0A)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\spaceinvaders.o --omf_browse .\spaceinvaders.crf --depend .\spaceinvaders.d)
+I (tm4c123gh6pm.h)(0x6286AA68)
+I (Nokia5110.h)(0x5D03D9B0)
+I (Random.h)(0x5D03D9B0)
+I (TExaS.h)(0x5D03D9B0)
+I (C:\Keil_v5\ARM\ARMCC\include\time.h)(0x602577D8)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x602577D4)
+I (GPIO.h)(0x6287D909)
+I (Timer0_A.h)(0x6287DB68)
+F (.\TExaS.c)(0x5D03D9B0)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\texas.o --omf_browse .\texas.crf --depend .\texas.d)
+I (TExaS.h)(0x5D03D9B0)
+F (.\GPIO.c)(0x6287D919)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (GPIO.h)(0x6287D909)
+I (tm4c123gh6pm.h)(0x6286AA68)
+F (.\Timer0_A.c)(0x6287DB75)(-c --cpu Cortex-M4 -D__RTX -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\..-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Luminary-D__UVISION_VERSION="536" -Drvmdk -DPART_LM4F120H5QR-o .\timer0_a.o --omf_browse .\timer0_a.crf --depend .\timer0_a.d)
+I (tm4c123gh6pm.h)(0x6286AA68)

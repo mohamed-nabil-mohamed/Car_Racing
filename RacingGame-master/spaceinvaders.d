@@ -1,0 +1,9 @@
+.\spaceinvaders.o: SpaceInvaders.c
+.\spaceinvaders.o: tm4c123gh6pm.h
+.\spaceinvaders.o: Nokia5110.h
+.\spaceinvaders.o: Random.h
+.\spaceinvaders.o: TExaS.h
+.\spaceinvaders.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\time.h
+.\spaceinvaders.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\spaceinvaders.o: GPIO.h
+.\spaceinvaders.o: Timer0_A.h
